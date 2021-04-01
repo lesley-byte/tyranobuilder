@@ -1,0 +1,37 @@
+[html top=100 left=300]
+<ul>
+<style type="text/css">
+body {
+font-size: 150%;
+color:white }
+li {
+font-size: 150%;
+color:white }
+input{
+font-size: 150%;
+color:white }
+input.largerCheckbox {
+width: 40px;
+height: 40px;
+}
+.hide {
+display: none;
+}
+
+.myDIV:hover + .hide {
+display: block;
+color: red;
+}
+
+
+</style>
+<li><input type="checkbox"  class="largerCheckbox  id="checkbox1" name="checkbox1" value="checkbox1" />  Thingy one for choice one</li>
+</br>
+<li><input type="checkbox"class="largerCheckbox id="checkbox1" name="checkbox1" value="checkbox1" />  Thingy two for choice one</li>
+</br>
+</ul>
+</br>
+<div class="myDIV">Hover over me.</div>
+<div class="hide">I am shown when you hover .</div>
+[endhtml]
+
